@@ -1,0 +1,33 @@
+---Host/Student info----
+
+Running on Wed Nov 12 10:06:12 PM EST 2025
+Run by student - () on host
+ Static hostname: generic-vm
+      Machine ID: 45b7eb0f4ce740a1bb8ef790ca43f73d
+Operating System: Ubuntu 24.04.3 LTS
+a98742121b14ebe6350c4bf8245d0062  ./check-assign2-script.sh - a98742121b14ebe6350c4bf8245d0062  -
+------------------------
+
+---Start of Assignment2.sh Check------
+---Running makecontainers.sh----------
+This script performs many tasks. Please be patient
+To see more about what it is doing as it does it, use the --verbose option
+You may ignore any messages about Open vSwitch or dpkg-preconfigure being unable to re-open stdin
+DO NOT use control-Z when this script is running.
+# Host server1-mgmt found: line 4
+# Host server1-mgmt found: line 5
+# Host server1-mgmt found: line 6
+/home/student/.ssh/known_hosts updated.
+Original contents retained as /home/student/.ssh/known_hosts.old
+---Retrieving assignment2.sh script---
+Retrieved assignment2 script
+Copied assignment2.sh script to server1
+---assignment2.sh run----
+[INFO] Checking network configuration for 192.168.16.21/24...
+[ OK ] Network already configured on eth0; skipping.
+[ OK ] /etc/hosts updated with 192.168.16.21 server1.
+[INFO] Ensuring apache2 and squid are installed and running...
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Reading package lists...
